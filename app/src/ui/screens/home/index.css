@@ -1,0 +1,43 @@
+.home__background {
+  background-color: #000000;
+  height: 100vh;
+}
+
+.home__header {
+  box-shadow: none;
+  position: relative;
+}
+
+.home__menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.home__link {
+  margin: 0 10px;
+}
+
+.home__conteudo {
+  display: flex;
+  margin: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__conteudo img{
+  border-radius: 90px;
+  width: 343px;
+
+}
+
+.home__conteudo h1 {
+  color: white;
+  font-size: 36px;
+  max-width: 600px;
+}
+
+.home__button__motorista {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}

@@ -1,0 +1,11 @@
+export { FinalizarCorridaScreen } from './corrida/finalizar-corrida/finalizar-corrida.screen';
+export { IniciarCorridaScreen } from './corrida/iniciar-corrida/iniciar-corrida.screen';
+export { CorridaScreen } from './corrida/resultado-corrida/corrida.screen';
+export { SolicitarCorridaScreen } from './corrida/solicitar-corrida/solicitar-corrida.screen';
+export { HomeScreen } from './home/home.screen';
+export { MotoristaAvaliarScreen } from './motorista/motorista-avaliacao/motorista-avaliacao.screen';
+export { MotoristaScreen } from './motorista/motorista-menu/motorista.screen';
+export { MotoristaSacarScreen } from './motorista/motorista-sacar/motorista-sacar.screen';
+export { PassageiroCadastroScreen } from './passageiro/passageiro-cadastro/passageiro-cadastro.screen';
+export { PassageiroDepositar } from './passageiro/passageiro-depositar/passageiro-depositar.screen';
+export { PassageiroScreen } from './passageiro/passageiro-menu/passageiro.screen';

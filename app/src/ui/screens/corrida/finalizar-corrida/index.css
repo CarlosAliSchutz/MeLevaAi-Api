@@ -1,0 +1,13 @@
+.finalizar-corrida-screen__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  gap: 120px;
+}
+
+.finalizar-corrida-screen__container h1 {
+  font-size: 48px;
+  width: 20ch;
+  text-align: center;
+}

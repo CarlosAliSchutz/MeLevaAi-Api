@@ -1,0 +1,36 @@
+.sacar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sacar input{
+  font-size: 27px;
+  border-radius: 100px;
+  height: 58px;
+  padding: 0 15px;
+  margin: 15px;
+  width: 370px;
+  text-align: center;
+}
+
+.sacar__valor {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.sacar__header {
+  position: fixed;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.sacar__cash {
+  font-size: 18px;
+}

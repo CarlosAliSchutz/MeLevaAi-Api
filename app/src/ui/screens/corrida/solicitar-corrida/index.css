@@ -1,0 +1,49 @@
+.solicitar-corrida-screen__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.solicitar-corrida-screen__container h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.solicitar-corrida-screen__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.solicitar-corrida-screen__form label {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.solicitar-corrida-screen__inputs + label {
+  margin-top: 83px;
+}
+
+.solicitar-corrida-screen__inputs {
+  display: flex;
+  gap: 35px;
+}
+
+.solicitar-corrida-screen__form button {
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  min-height: 40px;
+  min-width: 120px;
+  background: #000;
+  color: #fff;
+
+  margin-top: 60px;
+}
+
+.solicitar-corrida-screen__form button:hover {
+  box-shadow: inset 0 0 0.3em #fff;
+}

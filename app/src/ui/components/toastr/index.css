@@ -1,0 +1,31 @@
+.toastr {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 5%;
+  left: 2%;
+  max-width: 500px;
+  height: 100px;
+  background: rgb(88, 8, 8);
+  border: 1px solid #000;
+  border-radius: 5px;
+
+  animation: animation 1s ease-out alternate;
+}
+
+.toastr__message {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+}
+
+@keyframes animation {
+  from {
+    bottom: -40px;
+  }
+
+  to {
+    bottom: 5%;
+  }
+}

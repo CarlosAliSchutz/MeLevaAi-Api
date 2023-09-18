@@ -1,0 +1,35 @@
+.passageiro-screen__container {
+  height: 100vh;
+}
+
+.passageiro-screen__wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.passageiro-screen__passageiros-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  max-height: 740px;
+}
+
+.passageiro-screen__botoes-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.passageiro-screen__menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.passageiro-screen__menu p {
+  font-size: 20px;
+}
+
+.passageiro-selecionado {
+  margin-top: 35px;
+}

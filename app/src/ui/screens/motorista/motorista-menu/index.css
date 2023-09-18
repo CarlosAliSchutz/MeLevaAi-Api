@@ -1,0 +1,42 @@
+.motorista-screen__container {
+  height: 100vh;
+}
+
+.motorista-screen__wrapper h1 {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  font-size: 40px;
+}
+
+.motorista-screen__wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.motorista-screen__motoristas-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  max-height: 740px;
+}
+
+.motorista-screen__botoes-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.motorista-screen__menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.motorista-screen__menu p {
+  font-size: 20px;
+}
+
+.motorista-selecionado {
+  margin-top: 35px;
+}

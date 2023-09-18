@@ -1,0 +1,43 @@
+.avaliacao__painel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.avaliacao__box {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  color: white;
+  font-size: 18px;
+  background: #000000;
+  border: solid 1px #000;
+  box-shadow: inset 0 0 0.3em black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 200px;
+  padding: 10px;
+  cursor: pointer;
+  padding: 50px;
+}
+
+.avaliacao__box:hover {
+  background: #252525;
+}
+
+.avaliacao__box:focus {
+  background: #252525;
+}
+
+.avaliacao__header {
+  position: fixed;
+}
+
+.avaliar__corridas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
